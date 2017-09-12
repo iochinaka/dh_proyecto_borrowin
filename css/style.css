@@ -122,10 +122,10 @@ p{
 /* Tablet */
 
 @media (min-width: 620px) {
-    #login-button {
+    /*#login-button {
         width: 40vw;
-        height: 7vh;
-    }
+        height: 10vh;
+    }*/
     .toggle-nav {
         padding: 12px 13px;
         margin-top: -3px;
@@ -141,9 +141,6 @@ p{
     }
     .main-header {
         overflow: hidden;
-    }
-    .logo {
-        background-color: rgb(145, 183, 193);
     }
     .main-nav {
         width: 100%;
@@ -161,8 +158,8 @@ p{
     .main-nav a:hover {
         color: rgb(247, 204, 75);
     }
-    #login-button {
+    /*#login-button {
         width: 30vw;
-        height: 7vh;
-    }
+        height: 10vh;
+    }*/
 }
