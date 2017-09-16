@@ -1,4 +1,11 @@
-<<<<<<< HEAD
+/* ----------------------CONTENIDOS--------------------------- */
+/*
+-SETEOS ESTANDAR
+-SETEOS SECCIONES
+-SETEOS ARTICULOS (ELEMENTOS DE LAS SECCIONES Ej. Login, formulario, etc.)
+-MEDIA QUERIES
+*/
+/* INICIO = SETEOS ESTANDAR */
 *{
   box-sizing: border-box;
   margin: 0;
@@ -27,6 +34,9 @@ h2, h3 {
 p{
   font-family: 'Marvel', sans-serif;
 }
+/* FIN = SETEOS ESTANDAR */
+
+/* INICIO = SECCIONES */
 .main-header{
   background-color: rgb(145, 183, 193);
   height: 45px;
@@ -68,6 +78,9 @@ p{
   color: #303233;
   text-align: center;
 }
+.home-login{
+  overflow: hidden;
+}
 .front-banner{
   display: block;
   position: relative;
@@ -82,237 +95,15 @@ p{
   font-size: 1.6em;
   font-family: 'Courgette', cursive;
 }
-#login-button{
-  display: block;
-  font-size: 1.5em;
-  color: #fff;
-  background-color:  rgb(247, 204, 75);
-  border-radius: 10px 10px;
-  width: 50vw;
-  height: 11vh;
-  line-height: 2.5em;
-  margin-top: 50px;
-  margin-bottom: 20px;
-  padding: 4px 10px;
-  float: left;
-}
-.services{
-  text-align: center;
-  display: block;
-  clear: both;
-}
-.ion-ios-cart, .ion-iphone, .ion-lock-combination{
-  color: #fff;
-  background-color:  rgb(247, 204, 75);
-  border-radius: 50%;
-  font-weight: bolder;
-  font-size: 55px;
-  padding: 20px;
-  width: 100px;
-  height: 100px;
-  margin: 50px 0 10px;
-  display: inline-block;
-}
-.services h2{
-  margin: 20px;
-}
-.main-footer{
-  text-align: center;
-  margin: 40px 0;
-}
-
-.home-login{
-  overflow: hidden;
-}
-
-/* Tablet */
-
-@media (min-width: 620px) {
-    /*#login-button {
-        width: 40vw;
-        height: 10vh;
-    }*/
-    .toggle-nav {
-        padding: 12px 13px;
-        margin-top: -3px;
-    }
-}
-
-
-/* Desktop */
-
-@media (min-width: 1000px) {
-    .toggle-nav {
-        display: none;
-    }
-    .main-header {
-        overflow: hidden;
-    }
-    .main-nav {
-        width: 100%;
-        display: inline-block !important;
-        margin: -8px 10px 0 0;
-        padding-bottom: 5px;
-    }
-    .main-nav a {
-        float: right;
-        background-color: transparent;
-        display: block;
-        border-left: solid white 1px;
-        padding: 7px 10px 8px 10px;
-    }
-    .main-nav a:hover {
-        color: rgb(247, 204, 75);
-    }
-    /*#login-button {
-        width: 30vw;
-        height: 10vh;
-    }*/
-}
-=======
-
-*{
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-a{
-  text-decoration: none;
-}
-
-ul, ol{
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-h1{
-  font-family: 'Kaushan Script', cursive;
-  padding: 8.2px;
-  margin: 0;
-  font-size: 1.8em;
-  color: rgb(247, 204, 75);
-  float: left;
-}
-h2, h3 {
-  font-family: 'Baloo+Tamma', sans-serif;
-  width: 100vw;
-}
-p{
-  font-family: 'Marvel', sans-serif;
-}
-.main-header{
-  background-color: rgb(145, 183, 193);
-  height: 60px;
-}
-.toggle-nav{
-  position: absolute;
-  color: #fff;
-  background-color:  rgb(247, 204, 75);
-  padding: 8px 8px;
-  top: 5px;
-  right: 12px;
-  font-size: 1em;
-  border-radius: 2px 2px;
-}
-.main-nav{
-  position: relative;
-  display: none;
-  z-index: 10;
-  clear: both;
-}
-.main-nav a{
-  font-family: 'Katibeh', sans-serif;
-  display: block;
-  text-align: center;
-  background-color: rgba(163, 185, 190, 0.9);
-  padding: 6px 4px;
-  font-size: 2em;
-  color: #fff;
-}
-.home{
-  background-image:url(../images/fondo_home-1.jpg);
-  background-repeat: no-repeat;
-  background-color: rgba(144, 182, 193, 0.79);
-  background-size: 100%;
-  background-position: 50% 45px;
-  text-align: center;
-  height: 80vh;
-
-}
-.home h2, .home h3{
-  color: #303233;
-  text-align: center;
-}
 .front-banner-registro{
   display: block;
   float: left;
   background: linear-gradient(rgba(163, 185, 190, 0.6),#FFFFFF 60%);  
 }
-.front-banner{
-  display: block;
-  position: relative;
-  top: 45%;
-  background: linear-gradient(rgba(163, 185, 190, 0.6),#FFFFFF 60%);
-}
-.front-banner h2{
-  font-size: 2em;
-  text-transform: uppercase;
-
-}
-.front-banner h3{
-  font-size: 1.6em;
-  font-family: 'Courgette', cursive;
-
-}
-.titulos{
-  overflow: hidden;
-  background: linear-gradient(rgba(163, 185, 190, 0.6),#FFFFFF 60%);
-}
-.titulos h2{
-  margin-top: 10px;
-  font-size: 2em;
-  float: left;
-}
-#home-register-button{
-  display: inline-block;
-  font-size: 1.5em;
-  color: #fff;
-  background-color:  rgb(247, 204, 75);
-  border-radius: 10px 10px;
-  width: 50vw;
-  max-width: 200px;
-  /*height: 11vh;*/
-  line-height: 2.5em;
-  margin-top: 50px;
-  margin-bottom: 20px;
-  padding: 4px 10px;
-}
-.services{
-  text-align: center;
-  display: block;
-  clear: both;
-}
-.ion-ios-cart, .ion-iphone, .ion-lock-combination{
-  color: #fff;
-  background-color:  rgb(247, 204, 75);
-  border-radius: 50%;
-  font-weight: bolder;
-  font-size: 55px;
-  padding: 20px;
-  width: 100px;
-  height: 100px;
-  margin: 50px 0 10px;
-  display: inline-block;
-}
-.services h2{
-  margin: 20px;
-}
 .main-footer{
   text-align: center;
   margin: 40px 0;
 }
-
-/*----------------------*/
 details{
   text-align: left;
   padding: 5px;
@@ -321,14 +112,12 @@ details{
   width:auto;
   background-color: #EEE;
 }
-
 summary{
   font-weight: bold;
   color: SteelBlue;
   font-size: 1.2em;
   cursor: pointer;
 }
-
 .about{
   background-color: rgb(145, 183, 193);
   overflow: hidden;
@@ -344,7 +133,6 @@ summary{
 .faq{
   float: left;
 }
-
 .video-home{
 margin-top: 60px;
   position: relative;
@@ -357,99 +145,33 @@ margin-top: 60px;
   width:100%;
 
 }
+/* FIN = SECCIONES */
 
-.contact, .home, .home-login {
-  background-color: rgb(145, 183, 193);
-}
-.body-contact {
-    left: 0;
-    top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: hidden; /*SN: auto; Enable scroll if needed */
-    padding-top: 10px;
-    display: flex;
-    justify-content: center;
-    max-height: 400px;
-    background: linear-gradient(rgba(163, 185, 190, 0.3),#FFFFFF 95%);
-
-/*  height: 100%;
+/* INICIO = ARTICULOS */
+.titulos{
   overflow: hidden;
-  margin-right: auto;
-  margin-left: auto;
-  display: flex;
-  justify-content: center;
-*/
-  
+  background: linear-gradient(rgba(163, 185, 190, 0.6),#FFFFFF 60%);
 }
-.contact_form{
-  background-color: rgba(178, 173, 157, 0.5);
-  max-width: 300px;
+.titulos h2{
+  margin-top: 10px;
+  font-size: 2em;
   float: left;
 }
-
-.contact_form button{
+#login-button{
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  font-size: 1.5em;
+  color: #fff;
+  background-color:  rgb(247, 204, 75);
+  border-radius: 10px 10px;
+  width: 50vw;
+  height: 11vh;
+  line-height: 2.5em;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  padding: 4px 10px;
+  float: left;
 }
-.contact_form h2, .contact_form label {
-    font-family: Georgia, Times, "Times New Roman", serif;
-}
-
-.contact_form li {
-    padding: 15px 0px;
-    border-bottom: 1px solid #eee;
-    position: relative;
-    font-size: 1.2em;
-}
-.contact_form label {
-    width: 25%;
-    display: inline-block;
-    padding: 3px;
-}
-
-.contact_form input {
-    height: 20px;
-    width: 70%;
-    padding: 5px 8px;
-    min-width: 200px;
-    max-width: 400px;
-}
-
-.contact_form textarea {
-    height: 150px;
-    padding: 8px;
-    width: 70%;
-    min-width: 200px;
-    max-width: 400px;
-}
-
-.contact_form input, .contact_form textarea {
-    border: 1px solid #aaa;
-    box-shadow: 0px 0px 3px #ccc, 0 10px 15px #eee inset;
-    border-radius: 2px;
-}
-
-button.submit {
-    background-color: #68b12f;
-    border: 1px solid #509111;
-    border-bottom: 1px solid #5b992b;
-    border-radius: 3px;
-    color: white;
-    font-weight: bold;
-    padding: 6px 20px;
-    text-align: center;
-    text-shadow: 0 -1px 0 #396715;
-}
-
-
-
-
-
-
-
-/*-----------------------------Formulario de Login------------------------------------*/
+/*---Formulario de Login----*/
 .login-html{
   background: url(../images/fondo-login.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -457,14 +179,8 @@ button.submit {
   -o-background-size: cover;
   background-size: cover;
   overflow: hidden;
-<<<<<<< HEAD
-  color: rgb(227, 19, 27);
-
-=======
   color: rgba(227, 19, 27, 0.61);
->>>>>>> 0e426b1fb403c8a281ab63d535e894bd18dc0915
 }
-
 #close-btn-img, #login-img{
   display: block;
   margin: auto;
@@ -472,7 +188,6 @@ button.submit {
   height: auto;
   background-color: rgba(34, 44, 45, 0.71);
 }
-
 #login-button{
   cursor: pointer;
   padding: 30px;
@@ -486,10 +201,7 @@ button.submit {
   box-shadow: 10px 10px 30px #000;
   margin-top: 9em;
 }
-
-/* Login container */
 #container{
-  /*position: absolute;*/
   top: 0;
   left: 0;
   right: 0;
@@ -503,7 +215,6 @@ button.submit {
   display: none;
   float: left;
 }
-
 .close-btn{
   position: absolute;
   cursor: pointer;
@@ -521,12 +232,9 @@ button.submit {
   -o-transition: all 2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
-
 .close-btn:hover{
   opacity: .5;
 }
-
-/* Inputs */
 #login-form-button, .orange-btn, .login-form-input{
   font-family: 'Open Sans Condensed', sans-serif;
   text-decoration: none;
@@ -545,14 +253,11 @@ button.submit {
   -o-transition: all 2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
-
 .login-form-input:focus, #new-pass-input:focus{
   outline: none;
   box-shadow: 3px 3px 10px #333;
   background: rgba(3,3,3,.18);
 }
-
-/* Placeholders */
 ::-webkit-input-placeholder {
    color: #ddd;  }
 :-moz-placeholder { /* Firefox 18- */
@@ -561,24 +266,19 @@ button.submit {
    color: red;  }
 :-ms-input-placeholder {
    color: #333;  }
-
-/* Link */
 #login-form-button{
   font-family: 'Open Sans Condensed', sans-serif;
   text-align: center;
   padding: 4px 8px;
   background: rgba(107,255,3,0.3);
 }
-
 #login-form-button:hover, .orange-btn:hover{
   opacity: 0.7;
 }
-
 #remember-container{
   position: relative;
   margin: -5px 20px;
 }
-
 .checkbox {
   position: relative;
   cursor: pointer;
@@ -590,17 +290,14 @@ button.submit {
   width: 16px;
   height: 15px;
 }
-
 .checkbox:checked:active {
 	box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px 1px 3px rgba(0,0,0,0.1);
 }
-
 .checkbox:checked {
   background: rgba(3,3,3,.4);
 	box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05), inset 15px 10px -12px rgba(255,255,255,0.5);
 	color: #fff;
 }
-
 .checkbox:checked:after {
 	content: '\2714';
 	font-size: 10px;
@@ -609,7 +306,6 @@ button.submit {
 	left: 4px;
 	color: #fff;
 }
-
 #remember{
   position: absolute;
   font-size: 13px;
@@ -618,7 +314,6 @@ button.submit {
   top: 7px;
   left: 20px;
 }
-
 #forgotten{
   position: absolute;
   font-size: 12px;
@@ -632,11 +327,9 @@ button.submit {
   -o-transition: all 2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
-
 #forgotten:hover{
   color: rgba(255,255,255,.6);
 }
-
 #forgotten-container{
   position: absolute;
   top: 0;
@@ -651,110 +344,116 @@ button.submit {
   box-shadow: 1px 1px 50px #000;
   display: none;
 }
-
 .orange-btn{
   background: rgba(87,198,255,.5);
 }
-<<<<<<< HEAD
->>>>>>> 81fb8d64bec9a5d2aacbdef924baefa037d7715b
-=======
-.cont{
-  position: relative;
+#home-register-button{
   display: inline-block;
-  background-color: rgba(15, 12, 17, 0.30);
-  height: 100vh;
-  width: 100vw;
+  font-size: 1.5em;
+  color: #fff;
+  background-color:  rgb(247, 204, 75);
+  border-radius: 10px 10px;
+  width: 50vw;
+  max-width: 200px;
+  /*height: 11vh;*/
+  line-height: 2.5em;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  padding: 4px 10px;
 }
-/*----------------------------Formulario de registro-------------------------------------------*/
-/* Full-width input fields */
-#input-email, .input-password {
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    box-sizing: border-box;
+.ion-ios-cart, .ion-iphone, .ion-lock-combination{
+  color: #fff;
+  background-color:  rgb(247, 204, 75);
+  border-radius: 50%;
+  font-weight: bolder;
+  font-size: 55px;
+  padding: 20px;
+  width: 100px;
+  height: 100px;
+  margin: 50px 0 10px;
+  display: inline-block;
 }
-
-/* Set a style for all buttons */
-.signupbtn, .cancelbtn {
-    background-color: #4CAF50;
-    color: white;
-    padding: 14px 20px;
-    margin: 8px 0;
-    border: none;
-    cursor: pointer;
-    width: 100%;
+/*---Formulario de contacto---*/
+.contact, .home, .home-login {
+  background-color: rgb(145, 183, 193);
 }
-
-/* Extra styles for the cancel button */
-.cancelbtn {
-    padding: 14px 20px;
-    background-color: #f44336;
-}
-
-/* Float cancel and signup buttons and add an equal width */
-.cancelbtn,.signupbtn {float:left;width:50%}
-
-/* The Modal (background) */
-.modal {
-    /*display: none;  Hidden by default */
-  /*SN:  position: fixed;  Stay in place*/ 
-  /*SN:  z-index: 1;  Sit on top */ 
+.body-contact {
     left: 0;
     top: 0;
     width: 100%; /* Full width */
     height: 100%; /* Full height */
     overflow: hidden; /*SN: auto; Enable scroll if needed */
     padding-top: 10px;
-}
+    display: flex;
+    justify-content: center;
+    max-height: 400px;
+    background: linear-gradient(rgba(163, 185, 190, 0.3),#FFFFFF 95%);
 
-/* Modal Content/Box */
-.modal-content {
-    background-color: #fefefe;
-    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
-    border: 1px solid #888;
-    width: 80%; /* Could be more or less, depending on screen size */
-    max-width: 300px;
 }
-
-/* The Close Button (x) */
-.close {
-    position: absolute;
-    right: 35px;
-    top: 15px;
-    color: #000;
-    font-size: 40px;
+.contact_form{
+  background-color: rgba(178, 173, 157, 0.5);
+  max-width: 300px;
+  float: left;
+}
+.contact_form button{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.contact_form h2, .contact_form label {
+    font-family: Georgia, Times, "Times New Roman", serif;
+}
+.contact_form li {
+    padding: 15px 0px;
+    border-bottom: 1px solid #eee;
+    position: relative;
+    font-size: 1.2em;
+}
+.contact_form label {
+    width: 25%;
+    display: inline-block;
+    padding: 3px;
+}
+.contact_form input {
+    height: 20px;
+    width: 70%;
+    padding: 5px 8px;
+    min-width: 200px;
+    max-width: 400px;
+}
+.contact_form textarea {
+    height: 170px;
+    padding: 8px;
+    width: 70%;
+    min-width: 200px;
+    max-width: 400px;
+}
+.contact_form input, .contact_form textarea {
+    border: 1px solid #aaa;
+    box-shadow: 0px 0px 3px #ccc, 0 10px 15px #eee inset;
+    border-radius: 2px;
+}
+.submit {
+    background-color: #68b12f;
+    border: 1px solid #509111;
+    border-bottom: 1px solid #5b992b;
+    border-radius: 3px;
+    color: white;
     font-weight: bold;
+    padding: 6px 20px;
+    text-align: center;
+    text-shadow: 0 -1px 0 #396715;
 }
+/* FIN = ARTICULOS */
 
-.close:hover,
-.close:focus {
-    color: red;
-    cursor: pointer;
-}
-
-/* Clear floats */
-.clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
-}
-
-/* Change styles for cancel button and signup button on extra small screens */
-
-
-
-/*MEDIA QUERIES*/
-/* smartphone */
+/* INICIO = MEDIA QUERIES */
+/*---smartphone---*/
 @media screen and (max-width: 300px) {
     .cancelbtn, .signupbtn {
        width: 100%;
     }
 }
-
-/* Tablet */
-
+/*---Tablet---*/
 @media (min-width: 620px) {
 
     #login-button {
@@ -769,8 +468,7 @@ button.submit {
         margin-top: -3px;
     }
 }
-/* Desktop */
-
+/*---Desktop---*/
 @media (min-width: 1000px) {
     .toggle-nav {
         display: none;
@@ -791,9 +489,6 @@ button.submit {
     .main-header {
         overflow:hidden;
     }
-    /*.logo {
-        background-color: rgb(145, 183, 193);
-    }*/
 
     .main-nav {
         width: 100%;
@@ -829,4 +524,4 @@ button.submit {
       background-size: 80%;
     }
 }
->>>>>>> 0e426b1fb403c8a281ab63d535e894bd18dc0915
+/* FIN = MEDIA QUERIES */
