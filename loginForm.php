@@ -13,7 +13,11 @@
     <div class="container">
       <!--ABOUT-->
     <section class="home-login">
+<<<<<<< HEAD
     <h1><a href="home.php">Borrowin!</a></h1>
+=======
+    <h1>Borrowin!</h1>
+>>>>>>> 0e426b1fb403c8a281ab63d535e894bd18dc0915
     <!--Cabecera-->
     <header class="main-header">
       <a href="#" class="toggle-nav">
